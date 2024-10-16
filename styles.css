@@ -1,0 +1,54 @@
+/* Vertically/Horizontally centering all content */
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Styling the input field and handling behaviour on hover*/
+.username {
+    padding: 5px;
+    margin: 0 0 15px;
+    background-color: darkgrey;
+    width: 10%; 
+}
+
+.username:hover {
+    background-color: darkslategrey;
+}
+
+/* Styling the save button and handling behaviour on hover*/
+.save-btn {
+    padding: 10px;
+    margin: 0 0 10px;
+    background-color: green;
+    width: 5%;
+}
+
+.save-btn:hover {
+    background-color: darkgreen;
+}
+
+/* Styling the clear button and handling behaviour on hover*/
+.clear-btn {
+    padding: 10px;
+    margin: 0 0 10px;
+    background-color: red;
+    width: 5%;
+}
+
+.clear-btn:hover {
+    background-color: darkred;
+}
+
+/* Styling the p tag to stand out */
+p {
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: yellow;
+}
